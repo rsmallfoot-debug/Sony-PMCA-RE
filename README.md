@@ -47,6 +47,7 @@ Sony cameras can boot from a secondary partition for firmware updates. Using a c
 This mode does not require any special drivers, the operating system's mass storage USB driver is enough.
 
 A list of supported camera models can be found [here](https://openmemories.readthedocs.io/devices.html). Devices based on the CXD90045 and CXD90057 architectures are not compatible, since their firmware is cryptographically signed.
+Please apend list of supported models - to include rx100m7 and a6700. (a6700 must use zadig 2.9 and pmca 18-22) (rx100m7 must use zadig 2.8 w/ win32(v1.2.7.3) driver and pmca 18-22). 
 
 There are two ways to use this:
 * **pmca-gui**: In the *Tweaks* tab, click *Start tweaking (updater mode)*. You can then use the checkboxes to configure your camera's settings.
